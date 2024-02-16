@@ -1,0 +1,109 @@
+body{
+    background-image: url(../img/dramatic-landscape-view-with-sun-rays-shining-through-dark-cloudy-sky_181624-45676.avif);
+    background-size: 100% 100%;
+}
+/* ggg */
+header {
+  padding: 5px 0;
+  background-image: url(../img/stormy-night-sky-countryside-social-banner_53876-160173.avif);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.tagline {
+  font-size: 13px;
+  color: rgb(191, 193, 200);
+}
+#searchInput{
+    outline: none;
+}
+.menuIcon:hover {
+  color:  rgb(0, 154, 216);
+  border: 2px solid  rgb(0, 154, 216);
+}
+.menuIcon {
+  border: 2px solid transparent;
+  transition: color 300ms;
+}
+.nav-link {
+  font-size: 15px;
+  padding: 2px 25px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-nav li {
+  border-bottom-color: rgba(255, 255, 255, 0.15) !important;
+}
+.nav-link.active,
+.nav-link:not(.nav-link.active):hover {
+  color:rgb(0, 154, 216);
+  border-radius: 35px;
+}
+
+.logo {
+  cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+  .nav-link.active,
+  .nav-link:not(.nav-link.active):hover {
+    border: 2px solid rgb(0, 154, 216);
+  }
+  .nav-link {
+    border: 2px solid transparent;
+    transition: color 300ms;
+  }
+
+  .navbar-collapse {
+    background-color: transparent;
+  }
+  .navbar-nav li {
+    border: none !important;
+  }
+}
+
+.logo img{
+    width:80px;
+}
+.endd{
+   margin-top: 25px;
+   margin-left:5px;
+    color:#6a6d71 ;
+}
+.font{
+    font-size: 18px;
+    padding-block: 4px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color:rgb(30, 32, 43);
+  }
+  
+.icon i {
+    color:rgb(0, 154, 216);
+    transition: color 0.5s;
+  }
+  
+.icon {
+    cursor: pointer;
+    transition: background-color 500ms;
+  }
+  
+.icon:hover {
+    background-color: rgb(0, 154, 216);
+  }
+  
+.icon:hover > i {
+    color: white !important;
+  }
+  footer{
+
+    background-image: url(../img/stormy-night-sky-countryside-social-banner_53876-160173.avif);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+ 
+  }
